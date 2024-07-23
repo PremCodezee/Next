@@ -1,7 +1,13 @@
-import Image from "next/image";
+import FeaturedCources from "@/components/FeaturedCources";
+import HeroSection from "@/components/HeroSection";
+import WhyChooseUs from "@/components/WhyChooseUs";
 
 export default function Home() {
   return (
-    <h1 className="text-2xl text-center p-5 bg-slate-800 text-green-400 font-bold">Next Js</h1>
+    <>
+      <HeroSection />
+      <FeaturedCources />
+      <WhyChooseUs />
+    </>
   );
 }
